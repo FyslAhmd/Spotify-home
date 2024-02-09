@@ -125,8 +125,53 @@ a {
     border: none;
     border-radius: 100px;
     font-weight: 700;
-    margin-top: 1rem;
     padding: 0.25rem 1rem;
     height: 2rem;
     width: fit-content;
+}
+
+.btn-margin {
+    margin-top: 1rem;
+}
+
+.dark-badge {
+    background-color: black;
+    color: white;
+}
+
+.sticky-nav {
+    background-color: #121212;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    margin-top: 0.5rem;
+}
+
+.nav-left {
+    margin-left: 1rem;
+}
+
+.nav-left img {
+    border-radius: 50%;
+    background-color: #0e0e0e;
+    width: 1.5rem;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item-right {
+    margin-right: 1rem;
+}
+
+@media(max-width:1000px) {
+    .hide {
+        display: none;
+    }
 }
